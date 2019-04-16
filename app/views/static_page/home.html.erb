@@ -1,9 +1,11 @@
-<% provide :title, t(:home) %>
-<h1><%= t :welcome %>
-  <%= t :home_greeting %>
+<% provide :title, t("home") %>
+<h1><%= t("welcome") %>
+  <%= t ("home_greeting") %>
 </h1>
 <h2>
-  <%= t :home_des %>
-  <a href="https://www.railstutorial.org/"><%= t :ror_tuto %></a>
-  <%= t :home_sample %>
+  <%= t("home_des") %>
+  <a href="https://www.railstutorial.org/"><%= t("ror_tuto") %></a>
+  <%= t("home_sample") %>
+   <%= link_to t("signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </h2>
+<%= link_to image_tag("kitten.jpg", alt: "Kitten"), "http://rubyonrails.org/" %>

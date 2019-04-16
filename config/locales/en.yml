@@ -29,6 +29,7 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
+#Base page
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
@@ -36,6 +37,7 @@ en:
   about: "About"
   contact: "Contact"
   help: "Help"
+  news: "News"
 
   #Common phrase in pages
   ror_book: "Ruby On Rails"
@@ -59,3 +61,13 @@ en:
   #Home page
   home_greeting: "Welcome to the Sample App"
   home_des: "This is the home page for the"
+
+  login: "Log in"
+  signup: "Sign up"
+
+  users: "Users"
+
+  the: "The"
+  by: "by"
+  is_a: "is a"
+
