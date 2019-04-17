@@ -12,6 +12,9 @@ gem "puma", "~> 3.11"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 5.0"
 
+gem "config"
+
+gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", "3.3.7"
 
 # gem "mysql", "~> 2.9.1"
