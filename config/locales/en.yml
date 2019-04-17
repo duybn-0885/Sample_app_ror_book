@@ -62,12 +62,15 @@ en:
   home_greeting: "Welcome to the Sample App"
   home_des: "This is the home page for the"
 
-  login: "Log in"
+  #Login
   signup: "Sign up"
+  confirmation: "Confirmation"
+  create_account: "Create My Account"
 
+  login: "Log in"
   users: "Users"
-
   the: "The"
   by: "by"
   is_a: "is a"
-
+  form_containt: "The form contains"
+  not_found: "Not found"
