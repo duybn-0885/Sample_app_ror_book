@@ -64,6 +64,7 @@ en:
 
   #Login
   signup: "Sign up"
+  signup_now: "Sign up now"
   confirmation: "Confirmation"
   create_account: "Create My Account"
 
@@ -74,3 +75,10 @@ en:
   is_a: "is a"
   form_containt: "The form contains"
   not_found: "Not found"
+  new_user: "New user ?"
+  invalid_login: "Invalid email/password combination"
+  profile: "Profiles"
+  setting: "Settings"
+  logout: "Log out"
+
+  user: "User"
