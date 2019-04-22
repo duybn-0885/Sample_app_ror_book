@@ -2,3 +2,6 @@ maximum_length_name: 60
 maximum_length_email: 255
 minimum_length_password: 6
 valid_email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+items_per_page: 15
+gravatar_size: 80
+user_size: 50

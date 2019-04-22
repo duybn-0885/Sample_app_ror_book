@@ -14,6 +14,11 @@ gem "sass-rails", "~> 5.0"
 
 gem "config"
 
+gem "bootstrap-kaminari-views"
+
+gem "kaminari"
+gem "faker", "1.7.3"
+
 gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", "3.3.7"
 

@@ -83,3 +83,13 @@ en:
 
   user: "User"
   remember_me: "Remember me on this computer"
+  edit_title: "Update your profile"
+  edit: "Edit User"
+  save_changes: "Save changes"
+  profile_updated: "Profile updated"
+  please_log_in: "Please log in"
+  all_users: "All users"
+  you_sure: "You sure?"
+  delete: "Delete"
+  success_deleted: "User deleted"
+  failure_deleted: "Cannot delete"
