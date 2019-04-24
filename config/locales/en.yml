@@ -38,6 +38,16 @@ en:
   contact: "Contact"
   help: "Help"
   news: "News"
+  hi: "Hi"
+  email_activation_greeting: "Welcome to the Sample App! Click on the link below to activate your account:"
+  activate: "activate"
+  check_email: "Please check your email to activate your account."
+  account_activated: "Account activated"
+  invalid_link: "Invalid link"
+  account_not_activated: "Account not activated."
+  check_email: "Check your email for the activation link."
+  password_reset: "User#password_reset"
+  find_me: "find me in app/views/user_mailer/password_reset.html.erb"
 
   #Common phrase in pages
   ror_book: "Ruby On Rails"
@@ -57,6 +67,7 @@ en:
   help_des: "Get help on the Ruby on Rails Tutorial at the"
   help_sec: "Rails Tutorial help section"
   help_purpose: "To get help on this sample app, see the"
+  account_activation: "Account activation"
 
   #Home page
   home_greeting: "Welcome to the Sample App"
