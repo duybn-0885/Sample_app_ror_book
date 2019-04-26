@@ -6,3 +6,6 @@ items_per_page: 15
 gravatar_size: 80
 user_size: 50
 email_expired_time: 2
+maximum_length_micropost: 140
+maximum_picturesize: 5
+gravatar_size: 50

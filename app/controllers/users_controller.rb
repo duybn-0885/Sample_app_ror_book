@@ -17,9 +17,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    if @user.nil?
-      render "layouts/notfound"
-    end
+    @microposts = @user.microposts.page(params[:page]).per(Settings.items_per_page)
   end
 
 
@@ -59,14 +57,6 @@ class UsersController < ApplicationController
   private
     def user_params
       params.require(:user).permit(:name, :email, :password, :password_confirmation)
-    end
-
-    def logged_in_user
-      unless logged_in?
-        store_location
-        flash[:danger] = t("please_log_in")
-        redirect_to login_url
-      end
     end
 
     def correct_user

@@ -114,3 +114,18 @@ en:
   delete: "Delete"
   success_deleted: "User deleted"
   failure_deleted: "Cannot delete"
+  micropost_deleted: "Micropost deleted"
+
+  #Micropost
+  posted: "Posted"
+  ago: ago
+  microposts: "Microposts"
+  micropost_created: "Micropost created"
+  view_my_profile: "View my profile"
+  compose_post: "Compose new micropost..."
+  post: "Post"
+  micropost_feed: Micropost feed
+  image_limit_size: "should be less than 5MB"
+  micropost_cant_deleted: "Micropost cant deleted"
+
+  pls_log_in: "Please log in"
