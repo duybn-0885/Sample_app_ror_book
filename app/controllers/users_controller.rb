@@ -1,11 +1,24 @@
 class UsersController < ApplicationController
 
-  before_action :logged_in_user, only: [:index, :edit, :update]
+   before_action :logged_in_user, only: [:index, :edit, :update, :destroy, :following,
+    :followers]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
-  before_action :find_user, only: [:show, :edit, :update, :destroy]
+  before_action :find_user, only: [:show, :edit, :update, :destroy, :following, :followers]
 
   ORDER_BY_ATTRIBUTE = "created_at"
+
+  def following
+    @title = t("Following")
+    @users = @user.following.page(params[:page]).per(Settings.items_per_page)
+    render :show_follow
+  end
+
+  def followers
+    @title = t("Followers")
+    @users = @user.followers.page(params[:page]).per(Settings.items_per_page)
+    render :show_follow
+  end
 
   def index
     @users = Kaminari.paginate_array(User.all.order ORDER_BY_ATTRIBUTE).page(params[:page])
